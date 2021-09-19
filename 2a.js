@@ -43,10 +43,10 @@ const users = [
   },
 ];
 
-function scoresGreaterThan85(usersData) {
+function scoresFilter85(usersData) {
   const scoreGreaterThen85Users = usersData.filter(
     (score) => score.scores > 85
   );
   console.log(scoreGreaterThen85Users);
 }
-scoresGreaterThan85(users);
+scoresFilter85(users);
